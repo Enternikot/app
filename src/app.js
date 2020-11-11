@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 
 app.get('/', (req,res) => {
-    res.send('HELLO WORLD!');
+    res.send('HELLO MARS!');
 });
 
 app.listen(PORT,() => {
